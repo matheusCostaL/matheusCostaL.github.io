@@ -293,7 +293,7 @@ hr{
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        padding-bottom: auto;
+        padding-bottom: 100%;
         height: 100%;
     } 
 
