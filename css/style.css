@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.capa{
+    background-image: url(../images/img8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-bottom: 310px;
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav{
+    padding: 10px 2%;
+    width: 55%;
+    float: right;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    border-bottom: solid rgba(255,255,255,0) 1px;
+    font-weight: bold;
+}
+
+nav ul li:hover{
+    border-bottom: solid rgba(255, 255, 255, 0.5) 2px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    filter: invert(100%);
+}
+
+#apresentacao{
+    margin: 0;
+    color: black;
+    padding: 300px 25% 0 25%;
+}
+
+#titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 72px;
+}
+
+#frase{
+    text-align: center;
+    font-size: 17px;
+    padding: 0;
+}
+
+#autor{
+    text-align: right;
+    font-size: 17px;
+}
+
+.contentSite1, .contentSite3, .contentSite5{
+    width: auto;
+    padding: 75px 10%;
+    background-color: #160b30;
+    overflow: hidden;
+    color: white;
+}
+
+.contentSite1 h1, .contentSite2 h1, .contentSite3 h1, .contentSite4 h1, .contentSite5 h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.contentSite4, .contentSite6{
+    width: auto;
+    padding: 75px 10%;
+    background-color: #130929;
+    overflow: hidden;
+    color: white;
+}
+
+.containerLeft{
+    text-align: justify;
+    width: 45%;
+    height: auto;
+    float: left;
+    color: white;
+    margin: 0;
+}
+
+.containerRight{
+    text-align: right;
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding: 0 0 0 5%;
+    font-weight: bold;
+}
+
+#imgFundoMar{
+    width: 350px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    border-radius: 10px;
+}
+
+.contentSite2{
+    padding: 75px 5%;
+    background-image: url(../images/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+    overflow: hidden;
+    color: white;
+}
+
+.icons{
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    display: block;
+}
+
+.boxProblems{
+    float: left;
+    width: 25%;
+    margin: 4%;
+    text-align: center;
+}
+
+.iconProblem{
+    filter: invert(100%);
+}
+
+.linkContent{
+    color: white;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+.linkContent:hover{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration-line: none;
+}
+
+.divVideos{
+    width: 100%;
+    padding-top: 3%;
+}
+
+.vidMais{
+    width: 48%;
+    float: left;
+    padding: 0 1%;
+}
+
+.vidMaisMobile{
+    display: none;
+}
+
+.divInst{
+    width: 100%;
+    height: auto;
+}
+
+.instituicao{
+    width: 30%;
+    height: auto;
+    float: left;
+    padding: 0 1.6%;
+}
+
+.titleInst{
+    text-align: center;
+}
+
+.textInst{
+    text-align: justify;
+}
+
+.imagemInst{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    display: block;
+}
+
+.imagemInst:hover{
+    filter: opacity(50%);
+    transition: 0.5s;
+}
+
+#eu{
+    width: 400px;
+    height: 400px;
+}
+
+.iconsFooter{
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+}
+
+.divFooter{
+    float: left;
+}
+
+.divFooter1{
+    padding-top: 10px;
+    width: 9%;
+    height: auto;
+}
+
+.divFooter2{
+    width: 50%;
+    height: auto;
+}
+
+.divFooter3{
+    width: 40%;
+    float: right;
+    margin: 0;
+}
+
+.contatos{
+    display: flex;
+    width: 60%;
+    padding: 0 0 15px 60px;
+}
+
+.h3Mais{
+    text-align: center;
+    padding-top: 350px;
+    padding-bottom: 3%;
+}
+
+hr{
+    display: none;
+}
+
+@media (max-width: 767px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .menu{
+        background-color: rgb(0, 0, 0);
+        padding: 0 40% 0 40%;
+        margin: 0;
+        z-index: 1;
+    }
+    
+    .logo{
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .capa{
+        background-image: url(../images/fundo.jpg);
+    } 
+
+    #apresentacao{
+        color: white;
+        padding: 300px 10% 0 10%;
+    }
+
+    #titulo{
+        font-size: 50px;
+        color: white;
+    }
+
+    #frase{
+        padding: 15px 0 0 0;
+    }
+    
+    #autor{
+        text-align: center;
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .contentSite1, .contentSite3, .contentSite5{
+        width: auto;
+        padding: 10px 10%;
+    }
+
+    .contentSite1 h1, .contentSite2 h1, .contentSite3 h1, .contentSite4 h1, .contentSite5 h1{
+        margin-bottom: 15px;
+        padding: 5px 0 0 0;
+    }
+
+    .contentSite4, .contentSite6{
+        width: auto;
+        padding: 0 10% 30px 10%;
+        background-color: #130929;
+        color: white;
+    }
+
+    .containerLeft{
+        text-align: justify;
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .containerRight{
+        width: 100%;
+        margin: 0;
+        float: none;
+        padding: 0;
+        font-weight: bold;
+    }
+
+    #imgFundoMar{
+        padding: 20px 0 20px 0;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .contentSite2{
+        color: white;
+    }
+
+    .boxProblems, .instituicao{
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        margin: 0;
+        
+    }
+
+    .vidMais{
+        display: none;
+    }
+
+    .vidMaisMobile{
+        display: block;
+        padding: 10px 0 0 0;
+    }
+
+    .h3Mais{
+        padding-top: 50px;
+        padding-bottom: 3%;
+    }
+
+    #eu{
+        width: 100%;
+        height: auto;
+        display: flex;
+        text-align: center;
+        padding: 20px 0 20px 0;
+        margin: 0;
+    }
+
+    #imgODS{
+        max-width: 100%;
+        min-width: 100%;
+        height: auto;
+        float: none;
+        padding: 20px 0 20px 0;
+    }
+
+    .divFooter{
+        float: none;
+    }
+
+    .divFooter1{
+        padding: 10px 40% 0 40%;
+        width: auto;
+    }
+
+    .divFooter2{
+        width: 100%;
+        height: auto;
+        text-align: justify;
+        padding-bottom: 25px;
+    }
+
+    .titleFooter{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .divFooter3{
+        width: 100%;
+        float: right;
+        margin: 0;
+        padding: 25px 0 0 0;
+    }
+
+    .contatos{
+        display: flex;
+        width: 60%;
+        padding: 0 0 15px 0;
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        background-image: 
+        linear-gradient(to right, 
+            rgba(255, 255, 255, 0.5), 
+            rgba(255, 255, 255, 255), 
+            rgba(255, 255, 255, 0.5));
+        margin: 0;
+        display: block;
+    }
+}
