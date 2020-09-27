@@ -293,7 +293,6 @@ hr{
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        padding: 40% 0 40% 0;
         height: 100%;
     } 
 
@@ -305,6 +304,7 @@ hr{
     #titulo{
         font-size: 50px;
         color: white;
+        padding-top: 40%;
     }
 
     #frase{
@@ -315,6 +315,7 @@ hr{
         text-align: center;
         font-size: 16px;
         padding-top: 10px;
+        padding-bottom: 40%;
     }
 
     .contentSite1, .contentSite3, .contentSite5{
