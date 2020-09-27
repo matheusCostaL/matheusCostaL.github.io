@@ -298,12 +298,13 @@ hr{
 
     #apresentacao{
         color: white;
-        padding: 40% 10% 0 10%;
+        padding: 300px 10% 0 10%;
     }
 
     #titulo{
         font-size: 50px;
         color: white;
+        padding-top: 40%;
     }
 
     #frase{
